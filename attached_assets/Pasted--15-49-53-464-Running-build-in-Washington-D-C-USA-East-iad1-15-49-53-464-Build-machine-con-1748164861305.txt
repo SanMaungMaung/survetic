@@ -1,0 +1,66 @@
+[15:49:53.464] Running build in Washington, D.C., USA (East) – iad1
+[15:49:53.464] Build machine configuration: 2 cores, 8 GB
+[15:49:53.509] Cloning github.com/SanMaungMaung/survetic (Branch: main, Commit: 80a5ec0)
+[15:49:53.678] Previous build caches not available
+[15:49:53.837] Cloning completed: 328.000ms
+[15:49:54.198] Running "vercel build"
+[15:49:54.648] Vercel CLI 42.1.1
+[15:49:55.449] Running "install" command: `npm install`...
+[15:50:01.117] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[15:50:01.154] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[15:50:07.877] 
+[15:50:07.878] added 624 packages, and audited 625 packages in 12s
+[15:50:07.879] 
+[15:50:07.879] 75 packages are looking for funding
+[15:50:07.880]   run `npm fund` for details
+[15:50:07.920] 
+[15:50:07.921] 10 vulnerabilities (8 moderate, 2 high)
+[15:50:07.921] 
+[15:50:07.921] To address issues that do not require attention, run:
+[15:50:07.921]   npm audit fix
+[15:50:07.921] 
+[15:50:07.921] To address all issues (including breaking changes), run:
+[15:50:07.922]   npm audit fix --force
+[15:50:07.922] 
+[15:50:07.922] Run `npm audit` for details.
+[15:50:08.207] 
+[15:50:08.208] > rest-express@1.0.0 build
+[15:50:08.208] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[15:50:08.208] 
+[15:50:08.457] [36mvite v5.4.14 [32mbuilding for production...[36m[39m
+[15:50:08.506] transforming...
+[15:50:08.807] Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+[15:50:08.808]   npx update-browserslist-db@latest
+[15:50:08.808]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[15:50:16.434] [32m✓[39m 2615 modules transformed.
+[15:50:17.054] rendering chunks...
+[15:50:17.067] computing gzip size...
+[15:50:17.089] [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  0.63 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m
+[15:50:17.089] [2m../dist/public/[22m[2massets/[22m[35mindex-CrjqSc6q.css  [39m[1m[2m 69.16 kB[22m[1m[22m[2m │ gzip:  12.11 kB[22m
+[15:50:17.090] [2m../dist/public/[22m[2massets/[22m[36mindex-CWjWKE9x.js   [39m[1m[33m825.55 kB[39m[22m[2m │ gzip: 243.09 kB[22m
+[15:50:17.090] [33m
+[15:50:17.090] (!) Some chunks are larger than 500 kB after minification. Consider:
+[15:50:17.090] - Using dynamic import() to code-split the application
+[15:50:17.090] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[15:50:17.091] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[15:50:17.091] [32m✓ built in 8.61s[39m
+[15:50:17.138] 
+[15:50:17.138]   dist/index.js  19.7kb
+[15:50:17.138] 
+[15:50:17.138] ⚡ Done in 6ms
+[15:50:17.173] Installing dependencies...
+[15:50:18.136] 
+[15:50:18.136] up to date in 903ms
+[15:50:18.137] 
+[15:50:18.137] 75 packages are looking for funding
+[15:50:18.137]   run `npm fund` for details
+[15:50:18.329] Using TypeScript 5.6.3 (local user-provided)
+[15:50:24.478] server/replitAuth.ts(3,44): error TS7016: Could not find a declaration file for module 'passport-google-oauth20'. '/vercel/path0/node_modules/passport-google-oauth20/lib/index.js' implicitly has an 'any' type.
+[15:50:24.478]   Try `npm i --save-dev @types/passport-google-oauth20` if it exists or add a new declaration (.d.ts) file containing `declare module 'passport-google-oauth20';`
+[15:50:24.479] server/replitAuth.ts(4,46): error TS7016: Could not find a declaration file for module 'passport-facebook'. '/vercel/path0/node_modules/passport-facebook/lib/index.js' implicitly has an 'any' type.
+[15:50:24.479]   Try `npm i --save-dev @types/passport-facebook` if it exists or add a new declaration (.d.ts) file containing `declare module 'passport-facebook';`
+[15:50:24.479] 
+[15:50:26.745] Build Completed in /vercel/output [31s]
+[15:50:26.906] Deploying outputs...
+[15:50:31.288] 
+[15:50:31.580] Deployment completed

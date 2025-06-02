@@ -1,0 +1,111 @@
+[14:20:46.542] Running build in Washington, D.C., USA (East) – iad1
+[14:20:46.543] Build machine configuration: 2 cores, 8 GB
+[14:20:46.560] Cloning github.com/SanMaungMaung/survetic (Branch: main, Commit: d350aac)
+[14:20:47.381] Cloning completed: 820.000ms
+[14:20:48.721] Restored build cache from previous deployment (7p4znrCgBqM8b5WmsYQeEMahLiT5)
+[14:20:49.305] Running "vercel build"
+[14:20:49.753] Vercel CLI 42.2.0
+[14:20:50.497] Running "install" command: `npm install`...
+[14:20:53.914] 
+[14:20:53.915] up to date, audited 670 packages in 2s
+[14:20:53.915] 
+[14:20:53.915] 89 packages are looking for funding
+[14:20:53.916]   run `npm fund` for details
+[14:20:53.956] 
+[14:20:53.956] 10 vulnerabilities (8 moderate, 2 high)
+[14:20:53.956] 
+[14:20:53.957] To address issues that do not require attention, run:
+[14:20:53.957]   npm audit fix
+[14:20:53.957] 
+[14:20:53.957] To address all issues (including breaking changes), run:
+[14:20:53.958]   npm audit fix --force
+[14:20:53.958] 
+[14:20:53.959] Run `npm audit` for details.
+[14:20:54.203] 
+[14:20:54.203] > rest-express@1.0.0 build
+[14:20:54.204] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[14:20:54.204] 
+[14:20:54.497] [36mvite v5.4.14 [32mbuilding for production...[36m[39m
+[14:20:54.830] transforming...
+[14:20:54.922] Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+[14:20:54.922]   npx update-browserslist-db@latest
+[14:20:54.922]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[14:21:02.083] [32m✓[39m 2549 modules transformed.
+[14:21:02.742] rendering chunks...
+[14:21:02.755] computing gzip size...
+[14:21:02.781] [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  1.46 kB[22m[1m[22m[2m │ gzip:   0.82 kB[22m
+[14:21:02.781] [2m../dist/public/[22m[2massets/[22m[35mindex-GWZ0tYQi.css  [39m[1m[2m105.67 kB[22m[1m[22m[2m │ gzip:  16.71 kB[22m
+[14:21:02.782] [2m../dist/public/[22m[2massets/[22m[36mindex-LcSuZNSu.js   [39m[1m[33m951.66 kB[39m[22m[2m │ gzip: 270.11 kB[22m
+[14:21:02.782] [33m
+[14:21:02.782] (!) Some chunks are larger than 500 kB after minification. Consider:
+[14:21:02.782] - Using dynamic import() to code-split the application
+[14:21:02.782] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[14:21:02.782] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[14:21:02.783] [32m✓ built in 7.98s[39m
+[14:21:02.866] 
+[14:21:02.866]   dist/index.js  35.5kb
+[14:21:02.866] 
+[14:21:02.867] ⚡ Done in 12ms
+[14:21:02.901] Installing dependencies...
+[14:21:03.896] 
+[14:21:03.897] up to date in 934ms
+[14:21:03.897] 
+[14:21:03.897] 89 packages are looking for funding
+[14:21:03.897]   run `npm fund` for details
+[14:21:04.210] Using TypeScript 5.6.3 (local user-provided)
+[14:21:09.726] api/index-backup.ts(216,43): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(244,18): error TS18046: 'error' is of type 'unknown'.
+[14:21:09.727] api/index-backup.ts(245,18): error TS18046: 'error' is of type 'unknown'.
+[14:21:09.727] api/index-backup.ts(251,30): error TS18046: 'error' is of type 'unknown'.
+[14:21:09.727] api/index-backup.ts(273,47): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(273,70): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(281,25): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(283,21): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(317,15): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(318,18): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(319,24): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(320,24): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(321,22): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(322,19): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(323,22): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(324,17): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(351,45): error TS2304: Cannot find name 'schema'.
+[14:21:09.727] api/index-backup.ts(377,15): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(378,18): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(379,22): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(380,21): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(381,23): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(382,20): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(383,22): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(384,22): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(385,17): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(423,55): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(423,78): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(433,43): error TS2304: Cannot find name 'schema'.
+[14:21:09.728] api/index-backup.ts(483,50): error TS2304: Cannot find name 'schema'.
+[14:21:09.731] api/index-backup.ts(483,77): error TS2304: Cannot find name 'schema'.
+[14:21:09.731] api/index-backup.ts(499,47): error TS2304: Cannot find name 'schema'.
+[14:21:09.731] api/index-backup.ts(518,50): error TS2304: Cannot find name 'schema'.
+[14:21:09.731] api/index-backup.ts(518,77): error TS2304: Cannot find name 'schema'.
+[14:21:09.731] api/index-backup.ts(540,49): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(540,74): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(566,49): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(568,21): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(589,25): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(589,50): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(618,50): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(618,77): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(682,25): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(682,48): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(697,25): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(699,21): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(725,25): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] api/index-backup.ts(727,21): error TS2304: Cannot find name 'schema'.
+[14:21:09.737] 
+[14:21:13.130] Using TypeScript 5.6.3 (local user-provided)
+[14:21:13.898] api/index.ts(270,20): error TS18046: 'error' is of type 'unknown'.
+[14:21:13.898] 
+[14:21:15.487] Build Completed in /vercel/output [25s]
+[14:21:15.638] Deploying outputs...
+[14:21:19.781] 
+[14:21:20.036] Deployment completed

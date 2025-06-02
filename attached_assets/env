@@ -1,0 +1,8 @@
+SESSION_SECRET="T/V5EqCvC0rZEEwSFrICA189ovvUX1jJg9YrL3VumE36PkgmmlVORudjElYvC3GkhEzT/kG/RV8F4F1QA3TlHQ=="
+DATABASE_URL="postgresql://neondb_owner:npg_CH0Wn4dVrLMk@ep-blue-snowflake-a6p3twqk.us-west-2.aws.neon.tech/neondb?sslmode=require"
+PGDATABASE="neondb"
+PGHOST="ep-blue-snowflake-a6p3twqk.us-west-2.aws.neon.tech"
+PGPORT="5432"
+PGUSER="neondb_owner"
+PGPASSWORD="npg_CH0Wn4dVrLMk"
+RESEND_API_KEY="re_hNuKFLfJ_AwaKjc2xrP4KEeffCiQHVNmY"

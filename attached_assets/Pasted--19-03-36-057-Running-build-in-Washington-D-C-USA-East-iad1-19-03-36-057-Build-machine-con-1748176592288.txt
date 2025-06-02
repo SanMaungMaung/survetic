@@ -1,0 +1,66 @@
+[19:03:36.057] Running build in Washington, D.C., USA (East) – iad1
+[19:03:36.057] Build machine configuration: 2 cores, 8 GB
+[19:03:36.136] Cloning github.com/SanMaungMaung/survetic (Branch: main, Commit: 088e94a)
+[19:03:36.149] Skipping build cache, deployment was triggered without cache.
+[19:03:36.800] Cloning completed: 662.000ms
+[19:03:37.723] Running "vercel build"
+[19:03:38.557] Vercel CLI 42.1.1
+[19:03:39.331] Running "install" command: `npm install`...
+[19:03:45.559] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[19:03:45.607] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[19:03:52.687] 
+[19:03:52.688] added 628 packages, and audited 629 packages in 13s
+[19:03:52.689] 
+[19:03:52.689] 75 packages are looking for funding
+[19:03:52.690]   run `npm fund` for details
+[19:03:52.730] 
+[19:03:52.731] 10 vulnerabilities (8 moderate, 2 high)
+[19:03:52.731] 
+[19:03:52.731] To address issues that do not require attention, run:
+[19:03:52.732]   npm audit fix
+[19:03:52.732] 
+[19:03:52.732] To address all issues (including breaking changes), run:
+[19:03:52.732]   npm audit fix --force
+[19:03:52.732] 
+[19:03:52.733] Run `npm audit` for details.
+[19:03:53.025] 
+[19:03:53.026] > rest-express@1.0.0 build
+[19:03:53.026] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[19:03:53.026] 
+[19:03:53.285] [36mvite v5.4.14 [32mbuilding for production...[36m[39m
+[19:03:53.337] transforming...
+[19:03:53.652] Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+[19:03:53.653]   npx update-browserslist-db@latest
+[19:03:53.653]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[19:04:02.511] [32m✓[39m 2615 modules transformed.
+[19:04:03.353] rendering chunks...
+[19:04:03.369] computing gzip size...
+[19:04:03.392] [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  0.63 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m
+[19:04:03.392] [2m../dist/public/[22m[2massets/[22m[35mindex-CrjqSc6q.css  [39m[1m[2m 69.16 kB[22m[1m[22m[2m │ gzip:  12.11 kB[22m
+[19:04:03.395] [2m../dist/public/[22m[2massets/[22m[36mindex-CWjWKE9x.js   [39m[1m[33m825.55 kB[39m[22m[2m │ gzip: 243.09 kB[22m
+[19:04:03.396] [33m
+[19:04:03.396] (!) Some chunks are larger than 500 kB after minification. Consider:
+[19:04:03.397] - Using dynamic import() to code-split the application
+[19:04:03.397] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[19:04:03.399] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[19:04:03.400] [32m✓ built in 10.08s[39m
+[19:04:03.442] 
+[19:04:03.442]   dist/index.js  22.5kb
+[19:04:03.442] 
+[19:04:03.442] ⚡ Done in 6ms
+[19:04:03.484] Installing dependencies...
+[19:04:04.591] 
+[19:04:04.592] up to date in 1s
+[19:04:04.593] 
+[19:04:04.593] 75 packages are looking for funding
+[19:04:04.593]   run `npm fund` for details
+[19:04:04.823] Using TypeScript 5.6.3 (local user-provided)
+[19:04:10.131] server/replitAuth.ts(128,21): error TS2345: Argument of type 'null' is not assignable to parameter of type 'false | User | undefined'.
+[19:04:10.131] 
+[19:04:12.570] Build Completed in /vercel/output [33s]
+[19:04:12.727] Deploying outputs...
+[19:04:16.535] 
+[19:04:16.832] Deployment completed
+[19:04:38.138] Uploading build cache [106.46 MB]...
+[19:04:39.349] Build cache uploaded: 1.216s
+[19:04:41.643] Exiting build container

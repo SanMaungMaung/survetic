@@ -1,0 +1,142 @@
+“Survetic” Survey builder and Analytics Tool Core Features (MVP)
+1. Survey Creation
+* Question Types:
+    * Multiple choice (single/multi-select).
+    * Text input (short/long answer).
+    * Rating scales (e.g., 1–5 stars, Likert scales).
+    * Dropdown menus.
+* Drag-and-Drop Builder: Reorder questions easily.
+* Basic Logic: Skip logic (e.g., "If answer is 'No', skip to Question 5").
+* Customization:
+    * Add titles/descriptions.
+    * Toggle required questions.
+    * Simple theme editor (primary color, font).
+2. Response Collection
+* Unique Survey Links: Generate shareable URLs.
+* Anonymous Responses: No login required for respondents.
+* Real-Time Updates: Show response count as answers come in.
+* Validation: Ensure required questions are answered before submission.
+* Confirmation Page: "Thank you for submitting!" message.
+3. Analytics & Reporting
+* Summary Stats: Total responses, completion rate.
+* Basic Charts:
+    * Pie/bar charts for multiple-choice results.
+    * Average ratings for scales.
+* Text Response Analysis:
+    * Word frequency tables.
+    * Export text answers as CSV.
+* Response Filtering: View data by date or custom segments.
+4. User Management
+* Signup/Login: Email + password or Google/GitHub OAuth.
+* Dashboard: List of created surveys with status (draft/live/closed).
+* Delete/Edit Surveys: Basic CRUD operations.
+5. Accessibility & Performance
+* Keyboard Navigation: Support for screen readers.
+* Mobile Responsiveness: Optimized for phones/tablets.
+* Fast Loading: Optimize images/code for speed.
+
+Advanced Features (Stretch Goals)
+1. Survey Logic
+* Advanced Branching: Conditional paths based on multiple answers.
+* Randomize Questions: Prevent bias in order.
+2. Enhanced Analytics
+* Cross-Tabulation: Compare answers between two questions (e.g., "How do men vs. women answer Q2?").
+* Sentiment Analysis: Use compromise.cool or Natural library for text responses.
+* Export Options: PDF reports with charts.
+3. Collaboration
+* Team Access: Invite collaborators to edit surveys.
+* Role-Based Permissions: Admins vs. editors.
+4. Customization
+* Advanced Themes: Custom CSS, fonts, and logos.
+* White Labeling: Remove "Powered by [Your Tool]" branding.
+5. Security & Scalability
+* Rate Limiting: Prevent spam submissions.
+* Data Encryption: For sensitive responses.
+* Survey Expiration: Auto-close surveys after a date/responses cap.
+6. Integrations
+* Embed Surveys: Via iframe or script tag.
+* Webhook Support: Send responses to external tools (e.g., Zapier).
+* API Access: Let users fetch their survey data programmatically.
+
+Nice-to-Have (Optional but Impressive)
+* Survey Templates: Pre-built templates for NPS, event feedback, etc.
+* Offline Mode: Let respondents save progress and resume later.
+* Multi-Language Support: Let users translate surveys.
+* Time Limits: Set time limits per question/survey.
+ Wireframe
+1. Dashboard (Logged-In View)
+Purpose: Overview of surveys, quick actions. Components:
+* Top Navigation:
+    * Profile/Logout button.
+    * "Create New Survey" button (primary CTA).
+* Sidebar:
+    * Menu: Surveys, Templates, Analytics, Settings.
+    * Stats: Total surveys, responses, active surveys.
+* Main Content:
+    * Survey List: Grid/cards of existing surveys with:
+        * Title, status (Draft/Live/Closed).
+        * Response count, last edited date.
+        * Actions: Edit, Share, Delete, View Analytics.
+
+ Annotations:
+* Hovering a survey card shows quick actions.
+* Search bar to filter surveys by title/tags.
+
+2. Survey Builder Page
+Purpose: Create/edit surveys with drag-and-drop. Components:
+* Left Panel:
+    * Question Types: Icons for adding questions (multiple choice, text, rating, etc.).
+    * Logic Rules: Button to configure skip logic.
+* Central Canvas:
+    * Drag-and-drop area for questions.
+    * Preview of question styling (font/color).
+    * "Add Question" placeholder when empty.
+* Right Panel:
+    * Question Settings: Toggle required, add description.
+    * Theme Customizer: Primary color picker, font selector.
+    * "Save & Preview" button.
+
+ Annotations:
+* Drag handles on questions for reordering.
+* Clicking a question highlights its settings in the right panel.
+
+3. Live Preview & Share Page
+Purpose: Test and share the survey. Components:
+* Toolbar:
+    * Device preview toggles (mobile/desktop).
+    * Copy survey link button.
+    * "Go Live" toggle to activate/deactivate.
+* Survey Preview:
+    * Responsive design mockup of the survey.
+    * Sample questions with interactive elements.
+* Bottom Bar:
+    * "Back to Builder" and "View Analytics" buttons.
+
+ Annotations:
+* Hover over the mobile preview shows a scrollable interface.
+
+4. Analytics Dashboard
+Purpose: Visualize survey results. Components:
+* Filters: Date range, question-specific filters.
+* Summary Cards: Total responses, completion rate, avg. time.
+* Charts Section:
+    * Pie chart for multiple-choice questions.
+    * Bar graph for rating averages.
+    * Word cloud or frequency table for text responses.
+* Export Options: CSV, PDF buttons.
+
+ Annotations:
+* Clicking a chart segment (e.g., a pie slice) filters responses.
+
+5. Survey Response View (Respondent’s Perspective)
+Purpose: Demo how respondents interact. Components:
+* Progress Bar: Shows % of survey completed.
+* Questions: Clean, minimal UI with input fields.
+* Navigation: "Back" and "Next" buttons.
+* Submission Screen:
+    * Thank-you message.
+    * Optional: "Share this survey" social buttons.
+
+ Annotations:
+* Auto-save drafts (if logged in).
+

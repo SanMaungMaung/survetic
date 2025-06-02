@@ -1,0 +1,7 @@
+api/index-backup.ts
+*.backup.*
+.env.local
+.env.example
+README.md
+DEPLOYMENT.md
+attached_assets/

@@ -1,0 +1,20 @@
+index-B1QxFjjN.js:443 Dashboard render - user: true surveys: 0 isLoading: true
+index-B1QxFjjN.js:443 Dashboard render - user: true surveys: 16 isLoading: false
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 2, isLoading: true, hasSurvey: false, error: undefined, survey: undefined}
+index-B1QxFjjN.js:443 Survey Builder: Fetching survey {surveyId: 2, userId: '3694e8cb-8bed-45a6-aa0d-065c0b8b5c0e', url: '/api/surveys?id=2&token=MzY5NGU4Y2ItOGJlZC00NWE2LWFhMGQtMDY1YzBiOGI1YzBl', isVercel: false}
+index-B1QxFjjN.js:443 Survey Builder: Response {status: 200, statusText: '', ok: true}
+index-B1QxFjjN.js:443 Survey Builder: Survey data received (16) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 2, isLoading: false, hasSurvey: true, error: undefined, survey: Array(16)}
+index-B1QxFjjN.js:443 Loading survey for editing: (16) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+index-B1QxFjjN.js:443 Survey data loaded successfully: {title: undefined, questionsCount: 0, isPublished: false}
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 2, isLoading: false, hasSurvey: true, error: undefined, survey: Array(16)}
+index-B1QxFjjN.js:443 Dashboard render - user: true surveys: 16 isLoading: false
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 35, isLoading: true, hasSurvey: false, error: undefined, survey: undefined}
+index-B1QxFjjN.js:443 Survey Builder: Fetching survey {surveyId: 35, userId: '3694e8cb-8bed-45a6-aa0d-065c0b8b5c0e', url: '/api/surveys?id=35&token=MzY5NGU4Y2ItOGJlZC00NWE2LWFhMGQtMDY1YzBiOGI1YzBl', isVercel: false}
+index-B1QxFjjN.js:443 Survey Builder: Response {status: 200, statusText: '', ok: true}
+index-B1QxFjjN.js:443 Survey Builder: Survey data received (17) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 35, isLoading: false, hasSurvey: true, error: undefined, survey: Array(17)}
+index-B1QxFjjN.js:443 Loading survey for editing: (17) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+index-B1QxFjjN.js:443 Survey data loaded successfully: {title: undefined, questionsCount: 0, isPublished: false}
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 35, isLoading: false, hasSurvey: true, error: undefined, survey: Array(17)}
+index-B1QxFjjN.js:443 Survey Builder Debug: {surveyId: 35, isLoading: false, hasSurvey: true, error: undefined, survey: Array(17)}
